@@ -1,0 +1,31 @@
+{
+  "textureAtlas": {
+    "texture": "monstre.png",
+    "regionWidth": 60,
+    "regionHeight": 60
+  },
+  "cycles": {
+    "monstreAttack": {
+      "frames": [ 0, 1, 2, 3, 4, 5, 6 ]
+    },
+    "idle": {
+      "frames": [ 7, 8, 9, 10, 11, 12 ]
+    },
+    "walkWest": {
+      "frames": [ 14, 15, 16, 17, 18 ],
+      "frameDuration": 0.09
+    },
+    "walkEast": {
+      "frames": [ 21, 22, 23, 24, 25 ],
+      "frameDuration": 0.09
+    },
+    "walkNorth": {
+      "frames": [ 14, 15, 16, 17, 18 ],
+      "frameDuration": 0.09
+    },
+    "walkSouth": {
+      "frames": [ 14, 15, 16, 17, 18 ],
+      "frameDuration": 0.09
+    }
+  }
+}
